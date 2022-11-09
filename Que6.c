@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    char user[20];
+    gets(user);
+    printf("\"%s\"",user);
+}
